@@ -4,7 +4,7 @@ import shutil
 import sys
 import time
 
-def sync_folders(source_folder, replica_folder, log_file):
+def conjunction_folders(source_folder, replica_folder, log_file):
     
     for root, dirs, files in os.walk(source_folder):
         # Determine the corresponding subfolder in the replica folder
